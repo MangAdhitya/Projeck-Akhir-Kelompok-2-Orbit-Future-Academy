@@ -1,0 +1,5 @@
+@app.route('/generate')
+def generate():
+   print 'Hello World!'
+   flash('Process complete!')
+   return redirect(url_for(home))
